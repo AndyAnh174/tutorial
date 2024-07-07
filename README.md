@@ -60,7 +60,17 @@ Các bạn chọn phiên bản cho phù hợp với máy tính của mình nha.
 
 Các bạn có thể xem video hướng dẫn [tại đây](https://www.thegioididong.com/game-app/huong-dan-cach-tai-cai-dat-cau-hinh-git-tren-laptop-may-tinh-1299681).
 
-`Bước 2`: Sau khi thực hiện việc cài đặt chúng ta mở `Git Bash` lên và thực hiện câu lệnh:
+`Bước 2`: Sau khi thực hiện việc cài đặt chúng ta mở `Git Bash` lên
+Các mở `Git Bash`:
+
+![alt text](image-14.png)
+
+Và đây là giao diện của `Git Bash`
+
+![alt text](image-15.png)
+
+Và thực hiện câu lệnh:
+
  ```sh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 # Lưu ý: Nếu bạn đang sử dụng hệ thống cũ không hỗ trợ thuật toán Ed25519, hãy sử dụng:  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
